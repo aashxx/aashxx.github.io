@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    height: 75%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt {
+    color: gray;
+    font-size: 2.7rem;
+    margin: 85px 0 35px 0;
+}
+
+.smile {
+    background-color: rgb(206, 206, 42);
+    color: gray;
+    font-size: 2.7rem;
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+
+.btm {
+    display: flex;
+    height: 25%;
+    background-color: red;
+}
+
+.bottom {
+    width: 30%;
+    background-color: red;
+}
+
+.bottom:nth-of-type(2) {
+    width: 40%;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 100px solid yellow;
+}
